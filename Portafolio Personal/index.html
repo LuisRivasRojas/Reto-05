@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrpt.js"></script>
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ánalisis de Sistemas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/Perfil.jpg" alt="">
+            </div>
+            <h1>Luis Alexander</h1>
+            <h2>Que tal, Mucho Gusto</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.whatsapp.com/?lang=es_LA"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Luis Rivas.</span>Soy un aspiracte a futuro Ánalista de Sistemas, en este portafolio te
+                hablare un poco sobre mi y sobre mis experencias tanta academicas como laborales.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-03-2006
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            993 675 758
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            luis.rivas@vallegrande.edu.pe
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            C.P.M La Pampilla
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Ánalista</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <button>
+            <a href="CV_Luis_Rivas.pdf/cv.pdf" download="/cv.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+
+        </button>
+        </div>
+    </section>
+
+    <!-- SECCION DE ESPECIALIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Especialidades</h2>
+            <div class="fila">
+                <!-- Especialidad Tecnica -->
+                <div class="col">
+                    <h3>Especialidad Tecnica</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>74%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Especialidades profesionales -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>66%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION DE PROYECTOS -->
+    <section class="projects" ID="proyectos">
+        <!-- Proyecto 1 -->
+        <div class="project">
+            <img src="/img/proyecto.jpg" alt="Imagen del proyecto 1">
+            <div class="project-info">
+                <h2>Proyecto: Proyecto de Automatización</h2>
+                <p>En este proyecto que lo trabajado junto a mis compañeros de equipo, hemos elaborado una proyecto de automatización sobre una CONSTANCIA DE ESTUDIO.</p>
+                <a href="https://docs.google.com/presentation/d/18bD05mU4SO362nSMU5VLMloqEAkrr-xGj6h6RD0BwQA/edit#slide=id.p" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="project">
+            <img src="/img/proyecto1.jpg" alt="Imagen del proyecto 2">
+            <div class="project-info">
+                <h2>Proyecto: Sitio Web</h2>
+                <p>En este proyecto estamos trabajando un sitio web sobre la ODS 06 - Agua Limpia y Sanamiento, en el cual junto a mi equipo estamos trabajando para poder culminarlo.</p>
+                <a href="https://www.figma.com/design/MkyeaMj6qRrTPD5ry6HzpC/ODS06-Agua-limpia-y-saneamiento?node-id=29-2&node-type=canvas&t=sYanyuawUCgXtVLP-0" target="_blank">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>"Has volar tu creatividad"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Trabajo en Equipo</h3>
+                        <p>"Se trabaja mejor en equipo"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Compromiso</h3>
+                        <p>"Debemos cumplir con nuestros compromisos"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Responsobilidad</h3>
+                        <p>"La responsabilidades es muy importarte"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Arte y Diseño</h3>
+                        <p>"El arte es una forma de expresarnos"</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyectos</h3>
+                        <p>"Crea proyectos nuevos"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombres y Apellidos">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                C.P.M La Pampilla
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Teléfono: 2384 - 4343
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: luis@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="scrpt.js"></script>
+
+</body>
+
+</html>

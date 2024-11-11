@@ -1,0 +1,41 @@
+CV_Luis_Rivas.pdf
+|-- Datos Personales
+|   |-- Nombre: Luis Rivas
+|   |-- Cumpleaños: 19-03-2006
+|   |-- Teléfono: 993675758
+|   |-- Email: luis.rivas@vallegrande.edu.pe
+|   |-- Dirección: C.P.M La Pampilla
+|   |-- Cargo: Ánalista
+|
+|-- Intereses
+|   |-- Juegos
+|   |-- Música
+|   |-- Viajar
+|   |-- Deporte
+|   |-- Libros
+|
+|-- Educación
+|   |-- Arte y Multimedia
+|       |-- Universidad de Oxford
+|       |-- 2005 - 2008
+|       |-- Descripción de la educación...
+|
+|-- Experiencia Laboral
+|   |-- Front Developer
+|       |-- Nombre de Compañía
+|       |-- 2005 - 2008
+|       |-- Descripción de la experiencia laboral...
+|
+|-- Skills
+    |-- Technical Skills
+        |-- JavaScript
+        |-- HTML & CSS
+        |-- Photoshop
+        |-- Wordpress
+        |-- Drupal
+    |-- Professional Skills
+        |-- Comunicación
+        |-- Trabajo en Equipo
+        |-- Creatividad
+        |-- Dedicación
+        |-- Proyect Management
